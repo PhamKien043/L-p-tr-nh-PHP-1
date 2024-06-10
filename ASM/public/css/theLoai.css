@@ -1,0 +1,83 @@
+    /* Toàn bộ trang */
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+
+    /* Tiêu đề */
+    header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    }
+
+    h1 {
+    margin: 0;
+    }
+
+    /* Form */
+    .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .genre-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    }
+
+    .form-group {
+    display: flex;
+    flex-direction: column;
+    }
+
+    .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    }
+
+    .form-actions {
+    grid-column: 1 / -1;
+    text-align: right;
+    margin-top: 20px;
+    }
+
+    .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+    }
+
+    .btn-primary {
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    }
+
+    .btn-danger {
+    background-color: #f44336;
+    color: #fff;
+    }
+
+    .btn-primary:hover,
+    .btn-danger:hover {
+    opacity: 0.8;
+    }
